@@ -40,7 +40,7 @@ class Characters extends React.Component {
             <Container textAlign='center'>
               <Header as='h1'>GOT Characters</Header>
               <Card.Group itemsPerRow={4}>
-                {this.showCharacters()}
+                { this.showCharacters() }
               </Card.Group>
             </Container>
         )
